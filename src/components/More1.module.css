@@ -1,0 +1,176 @@
+.ucalendarAltIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.thiGian {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameGroup,
+.ucalendarAltParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.ucalendarAltParent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+}
+.hmNay {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 108px;
+  flex-shrink: 0;
+}
+.ucheckParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--line);
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.2;
+}
+.ngyMai {
+  display: inline-block;
+  width: 108px;
+}
+.ngyMai,
+.ngyTipTheo {
+  position: relative;
+  line-height: 20px;
+  opacity: 0.7;
+}
+.frameContainer,
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameParent {
+  width: 172px;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-5xs);
+}
+.usearchIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+}
+.uangleDownIcon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xl);
+}
+.eWork {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.frameParent3,
+.inputParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  font-size: var(--bodytext-14-regular-size);
+  color: var(--white);
+}
+.inputParent {
+  gap: var(--gap-5xs);
+  font-size: var(--caption-12-regular-size);
+  color: var(--label);
+}
+.line16Stroke {
+  position: relative;
+  border-radius: var(--br-81xl);
+  width: 2px;
+  height: 40px;
+}
+.frameDiv,
+.more,
+.more1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 176px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-8xs);
+}
+.more,
+.more1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.more1 {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-dimgray);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: var(--padding-xs) var(--padding-7xs) var(--padding-xs)
+    var(--padding-xs);
+  gap: var(--gap-xs);
+}
+.more {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--bodytext-14-regular-size);
+  color: var(--white);
+  font-family: var(--bodytext-14-regular);
+}

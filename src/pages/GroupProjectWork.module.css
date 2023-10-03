@@ -1,0 +1,114 @@
+.uuserCheckIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ngiXL {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.uuserCheckParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ucheckIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.hmNay {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  width: 108px;
+  flex-shrink: 0;
+}
+.ucheckParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--line);
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.2;
+}
+.ngyMai {
+  display: inline-block;
+  width: 108px;
+}
+.ngyMai,
+.ngyTipTheo {
+  position: relative;
+  line-height: 20px;
+  opacity: 0.7;
+}
+.frameContainer {
+  align-self: stretch;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameParent {
+  width: 172px;
+  align-items: flex-end;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+}
+.frameDiv,
+.frameParent,
+.groupProjectWork {
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frameDiv {
+  width: 172px;
+  align-items: flex-end;
+  padding: var(--padding-9xs);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.groupProjectWork {
+  position: relative;
+  background-color: var(--color-dimgray);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  align-items: flex-start;
+  padding: var(--padding-xs) var(--padding-5xs);
+  gap: 4px;
+  text-align: left;
+  font-size: var(--bodytext-14-regular-size);
+  color: var(--white);
+  font-family: var(--bodytext-14-regular);
+}
